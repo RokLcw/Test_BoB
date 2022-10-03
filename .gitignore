@@ -9,4 +9,5 @@
 *.log
 *.idb
 
-test_Proj_one/test_Proj_one/x64
+.vs/
+test_Proj_one/test_Proj_one/x64/
