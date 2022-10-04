@@ -10,7 +10,7 @@ def 기능2():
     print("???")
 
 def 기능3():
-    print("기능3")
+    print("변경합니다!")
 
 def main():
     print("main")
