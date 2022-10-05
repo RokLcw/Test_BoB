@@ -136,7 +136,7 @@ class Ui_MainWindow(object):
         self.listWidget_2.setSortingEnabled(False)
         for i in range(0, 20):
             item = self.listWidget_2.item(i)
-            item.setText(_translate("MainWindow", "File Info"))
+            item.setText(_translate("MainWindow", "File Info 입니다."))
         self.listWidget_2.setSortingEnabled(__sortingEnabled)
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "File Info"))
         __sortingEnabled = self.listWidget_3.isSortingEnabled()
