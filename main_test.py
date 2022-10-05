@@ -126,7 +126,7 @@ class Ui_MainWindow(object):
         # --------------------- 불러온 영상 리스트 ---------------------
         __sortingEnabled = self.listWidget.isSortingEnabled()
         self.listWidget.setSortingEnabled(False)
-        for i in range(0, 10):
+        for i in range(0, 3):
             item = self.listWidget.item(i)
             item.setText(_translate("MainWindow", "새 항목"))
         self.listWidget.setSortingEnabled(__sortingEnabled)
