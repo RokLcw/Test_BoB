@@ -41,7 +41,7 @@ class Ui_MainWindow(object):
         self.listWidget = QtWidgets.QListWidget(self.scrollAreaWidgetContents_4)
         self.listWidget.setGeometry(QtCore.QRect(0, 0, 281, 541))
         self.listWidget.setObjectName("listWidget")
-        for i in range(0, 10):
+        for i in range(0, 3):
             item = QtWidgets.QListWidgetItem()
             self.listWidget.addItem(item)
         self.scrollArea.setWidget(self.scrollAreaWidgetContents_4)
@@ -83,7 +83,7 @@ class Ui_MainWindow(object):
         self.listWidget_3 = QtWidgets.QListWidget(self.scrollAreaWidgetContents_2)
         self.listWidget_3.setGeometry(QtCore.QRect(0, 0, 621, 521))
         self.listWidget_3.setObjectName("listWidget_3")
-        for i in range(0, 10):
+        for i in range(0, 25):
             item = QtWidgets.QListWidgetItem()
             self.listWidget_3.addItem(item)
         self.scrollArea_3.setWidget(self.scrollAreaWidgetContents_2)
@@ -143,9 +143,11 @@ class Ui_MainWindow(object):
 
         # --------------------- Result ---------------------
         self.listWidget_3.setSortingEnabled(False)
-        for i in range(0, 10):
+        k = 0
+        for i in range(0, 25):
             item = self.listWidget_3.item(i)
-            item.setText(_translate("MainWindow", "새 항목"))
+            item.setText(_translate("MainWindow", str(k)+"_by jeong"))
+            k += 1
         self.listWidget_3.setSortingEnabled(__sortingEnabled)
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Result"))
 
