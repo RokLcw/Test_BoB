@@ -64,7 +64,7 @@ class Ui_MainWindow(object):
         self.listWidget_2 = QtWidgets.QListWidget(self.scrollAreaWidgetContents)
         self.listWidget_2.setGeometry(QtCore.QRect(0, 0, 621, 521))
         self.listWidget_2.setObjectName("listWidget_2")
-        for i in range(0, 10):
+        for i in range(0, 20):
             item = QtWidgets.QListWidgetItem()
             self.listWidget_2.addItem(item)
         self.scrollArea_2.setWidget(self.scrollAreaWidgetContents)
