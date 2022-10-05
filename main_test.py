@@ -134,7 +134,7 @@ class Ui_MainWindow(object):
         # --------------------- File Info ---------------------
         __sortingEnabled = self.listWidget_2.isSortingEnabled()
         self.listWidget_2.setSortingEnabled(False)
-        for i in range(0, 10):
+        for i in range(0, 20):
             item = self.listWidget_2.item(i)
             item.setText(_translate("MainWindow", "새 항목"))
         self.listWidget_2.setSortingEnabled(__sortingEnabled)
